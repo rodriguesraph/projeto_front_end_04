@@ -1,0 +1,25 @@
+.header {
+    padding: 8px 0;
+    background-color: black;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &__logo {
+            max-height: 72px;
+        }
+
+        &__button {
+            background-color: black;
+            width: 200px;
+
+            &:hover {
+                border: 2px solid orangered;
+                color: orangered;
+                font-weight: 500;
+            }
+        }
+    }
+}
