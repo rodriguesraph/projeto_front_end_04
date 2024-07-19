@@ -1,5 +1,6 @@
 @use 'header';
 @use 'hero';
+@use 'chapter';
 
 * {
     margin: 0;
@@ -17,7 +18,7 @@
     font-size: $fontSize;
     font-family: "Roboto", sans-serif;
     margin-bottom: 8px;
-    color: white;
+    color: gray;
 }
 
 @mixin title($titleSize: 36px) {
@@ -26,7 +27,6 @@
     font-family: "Oswald", sans-serif;
     font-weight: bold;
     color: white;
-    margin-bottom: 24px
 }
 
 .text {
@@ -35,14 +35,29 @@
 
 .title {
     @include title;
+    margin-bottom: 24px;
 
     &--small {
         @include title(24px);
+        margin-bottom: 24px;
     }
 
     &--large {
         @include title(48px);
+        margin-bottom: 24px;
     }
+
+    &--no-margin {
+        @include title;
+    }
+}
+
+.subtitle {
+    font-size: 24px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 24px;
 }
 
 .button {

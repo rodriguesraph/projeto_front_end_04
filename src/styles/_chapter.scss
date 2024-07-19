@@ -1,0 +1,29 @@
+.chapter {
+    background-color: #1b1b1b;
+    padding: 48px 0;
+
+    &__container {
+
+        &__tabs {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 24px;
+        }
+
+        &__button {
+            background-color: #1b1b1b;
+            width: 24%;
+        }
+
+        &__item {
+            display: grid;
+            grid-template-columns: 2fr 3fr;
+            gap: 16px;
+            margin-bottom: 24px;
+
+            &__img {
+                width: 100%;
+            }
+        }
+    }
+}
