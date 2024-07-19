@@ -13,19 +13,35 @@
     margin: 0 auto;
 }
 
-.text {
+@mixin text($fontSize: 16px) {
+    font-size: $fontSize;
     font-family: "Roboto", sans-serif;
+    margin-bottom: 8px;
     color: white;
 }
 
-.title {
+@mixin title($titleSize: 36px) {
+    font-size: $titleSize;
+    line-height: 110%;
     font-family: "Oswald", sans-serif;
     font-weight: bold;
-    font-size: 48px;
     color: white;
+    margin-bottom: 24px
+}
+
+.text {
+    @include text;
+}
+
+.title {
+    @include title;
 
     &--small {
-        font-size: 30px;
+        @include title(24px);
+    }
+
+    &--large {
+        @include title(48px);
     }
 }
 

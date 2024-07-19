@@ -4,6 +4,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-color: #1b1b1b;
+    padding-bottom: 48px;
 
     &__container {
         align-items: center;
@@ -11,7 +12,13 @@
 
         &__title {
             max-width: 100%;
-            margin-top: 650px;
+            margin-top: 50vh;
+            margin-bottom: 36px;
+        }
+
+        &__end {
+            max-width: 100%;
+            margin-top: 36px;
         }
     }
 }
