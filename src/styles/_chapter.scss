@@ -1,3 +1,9 @@
+@mixin activeButton ($buttonColor: orangered) {
+    border: 2px solid $buttonColor !important;
+    color: $buttonColor !important;
+    font-weight: 500 !important;
+}
+
 .chapter {
     background-color: #1b1b1b;
     padding: 48px 0;
@@ -13,16 +19,28 @@
         &__button {
             background-color: #1b1b1b;
             width: 24%;
+
+            &--is-active {
+                @include activeButton;
+            }
+
+            &:hover {
+                @include activeButton;
+            }
         }
 
         &__item {
-            display: grid;
+            display: none;
             grid-template-columns: 2fr 3fr;
             gap: 16px;
             margin-bottom: 24px;
 
             &__img {
                 width: 100%;
+            }
+
+            &--is-active {
+                display: grid;
             }
         }
     }
