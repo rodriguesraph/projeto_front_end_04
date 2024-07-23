@@ -1,6 +1,9 @@
 @use 'header';
 @use 'hero';
 @use 'chapter';
+@use 'movies';
+@use 'collection';
+@use 'footer';
 
 * {
     margin: 0;
@@ -31,6 +34,10 @@
 
 .text {
     @include text;
+
+    &--small {
+        @include text(14px);
+    }
 }
 
 .title {

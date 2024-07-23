@@ -1,6 +1,10 @@
 .header {
     padding: 8px 0;
     background-color: black;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
 
     &__container {
         display: flex;

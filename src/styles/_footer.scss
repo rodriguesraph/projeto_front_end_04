@@ -1,0 +1,15 @@
+.footer {
+    padding: 8px 0;
+    background-color: black;
+
+    &__container {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        &__img {
+            width: 200px;
+            margin: 8px 0;
+        }
+    }
+}

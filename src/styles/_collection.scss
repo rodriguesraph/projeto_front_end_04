@@ -1,0 +1,32 @@
+.collection {
+    background-color: #1b1b1b;
+    padding: 48px 0;
+
+    &__container {
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+        gap: 24px;
+
+        &__text {
+
+            &__button {
+                background-color: #1b1b1b;
+                width: 100%;
+                margin-top: 24px;
+
+                &:hover {
+                    border: 2px solid orangered;
+                    color: orangered; 
+                    font-weight: 500;
+                }
+            }
+        }
+
+        &__image {
+
+            &__img {
+                width: 100%;
+            }
+        }
+    }
+}
