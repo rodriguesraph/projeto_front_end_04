@@ -4,7 +4,7 @@ Projeto 4 da parte de Front-End do curso "Desenvolvedor Full Stack Python" da EB
 
 ## Demonstração
 
-O projeto foi hospedado para visualização na plataforma [GitHub Pages](https://rodriguesraph.github.io/projeto_front_end_04).
+O projeto foi hospedado para visualização na plataforma [Vercel](https://projeto-front-end-04-john-wick.vercel.app/).
 
 ## Licença
 
