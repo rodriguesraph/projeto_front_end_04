@@ -1,5 +1,7 @@
+@use 'colors';
+
 .collection {
-    background-color: #1b1b1b;
+    background-color: colors.$colorBg;
     padding: 48px 0;
 
     &__container {
@@ -14,13 +16,13 @@
         &__text {
 
             &__button {
-                background-color: #1b1b1b;
+                background-color: colors.$colorBg;
                 width: 100%;
                 margin-top: 24px;
 
                 &:hover {
-                    border: 2px solid orangered;
-                    color: orangered; 
+                    border: 2px solid colors.$colorMain;
+                    color: colors.$colorMain; 
                     font-weight: 500;
                 }
             }

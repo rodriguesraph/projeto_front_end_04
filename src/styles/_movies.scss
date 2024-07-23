@@ -1,5 +1,7 @@
+@use 'colors';
+
 .movies {
-    background-color: #1b1b1b;
+    background-color: colors.$colorBg;
     padding: 48px 0;
 
     &__container {
@@ -21,21 +23,21 @@
             }
 
             &__button {
-                background-color: #1b1b1b;
+                background-color: colors.$colorBg;
                 width: 100%;
                 margin-bottom: 16px;
 
                 &:hover {
-                    border: 2px solid white; 
+                    border: 2px solid colors.$colorWhite; 
                     font-weight: 500;
                 }
 
                 &--main {
-                    border: 1px solid orangered !important;
-                    color: orangered !important;
+                    border: 1px solid colors.$colorMain !important;
+                    color: colors.$colorMain !important;
                     
                     &:hover {
-                        border: 2px solid orangered !important; 
+                        border: 2px solid colors.$colorMain !important; 
                         font-weight: 500 !important;
                     }
                 }

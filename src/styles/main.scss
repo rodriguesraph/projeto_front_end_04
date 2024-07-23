@@ -4,6 +4,7 @@
 @use 'movies';
 @use 'collection';
 @use 'footer';
+@use 'colors';
 
 * {
     margin: 0;
@@ -26,7 +27,7 @@
     font-size: $fontSize;
     font-family: "Roboto", sans-serif;
     margin-bottom: 8px;
-    color: gray;
+    color: colors.$colorText;
 }
 
 @mixin title($titleSize: 36px) {
@@ -34,7 +35,7 @@
     line-height: 110%;
     font-family: "Oswald", sans-serif;
     font-weight: bold;
-    color: white;
+    color: colors.$colorWhite;
 }
 
 .text {
@@ -72,17 +73,17 @@
     font-size: 24px;
     font-family: "Oswald", sans-serif;
     font-weight: 300;
-    color: white;
+    color: colors.$colorWhite;
     margin-bottom: 24px;
 }
 
 .button {
     padding: 8px 16px;
     border-radius: 100px;
-    border: 1px solid white;
+    border: 1px solid colors.$colorWhite;
     font-family: "Oswald", sans-serif;
     font-weight: 200;
-    color: white;
+    color: colors.$colorWhite;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;

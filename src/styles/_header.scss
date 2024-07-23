@@ -1,6 +1,8 @@
+@use 'colors';
+
 .header {
     padding: 8px 0;
-    background-color: black;
+    background-color: colors.$colorBlack;
     position: sticky;
     top: 0;
     left: 0;
@@ -27,7 +29,7 @@
         }
 
         &__button {
-            background-color: black;
+            background-color: colors.$colorBlack;
             width: 200px;
 
             @media (max-width: 768px) {
@@ -36,8 +38,8 @@
             }
 
             &:hover {
-                border: 2px solid orangered;
-                color: orangered;
+                border: 2px solid colors.$colorMain;
+                color: colors.$colorMain;
                 font-weight: 500;
             }
         }

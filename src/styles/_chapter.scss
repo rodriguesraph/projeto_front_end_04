@@ -1,11 +1,13 @@
-@mixin activeButton ($buttonColor: orangered) {
+@use 'colors';
+
+@mixin activeButton ($buttonColor: colors.$colorMain) {
     border: 2px solid $buttonColor !important;
     color: $buttonColor !important;
     font-weight: 500 !important;
 }
 
 .chapter {
-    background-color: #1b1b1b;
+    background-color: colors.$colorBg;
     padding: 48px 0;
 
     &__container {
@@ -17,7 +19,7 @@
         }
 
         &__button {
-            background-color: #1b1b1b;
+            background-color: colors.$colorBg;
             width: 24%;
 
             @media (max-width: 768px) {

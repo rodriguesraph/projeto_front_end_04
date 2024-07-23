@@ -1,9 +1,11 @@
+@use 'colors';
+
 .hero {
     background-image: url(../../dist/images/hero-john-wick-v2.png);
     text-align: center;
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: #1b1b1b;
+    background-color: colors.$colorBg;
     padding-bottom: 48px;
 
     @media (max-width: 1279px) {
