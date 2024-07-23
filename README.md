@@ -1,10 +1,10 @@
-# [Front-End] Projeto 3: Landing Page Fatal Fury: City of the Wolves
+# [Front-End] Projeto 4: Landing Page John Wick
 
-Projeto 3 da parte de Front-End do curso "Desenvolvedor Full Stack Python" da EBAC. Trata-se de uma landing page desenvolvida com HTML, CSS e JavaScript, com auxílio da biblioteca jQuery e do framework Bootstrap, para o jogo recém anunciado (21/03/2024) Fatal Fury: City of the Wolves.
+Projeto 4 da parte de Front-End do curso "Desenvolvedor Full Stack Python" da EBAC. Trata-se de uma landing page para a franquia de filmes John Wick desenvolvida com HTML, CSS e JavaScript, além do pré-processador SASS e uso do Gulp para automação de tarefas. Este projeto foi desenvolvido sem o uso de qualquer framework.
 
 ## Demonstração
 
-O projeto foi hospedado para visualização na plataforma [GitHub Pages](https://rodriguesraph.github.io/projeto_front_end_03).
+O projeto foi hospedado para visualização na plataforma [GitHub Pages](https://rodriguesraph.github.io/projeto_front_end_04).
 
 ## Licença
 
