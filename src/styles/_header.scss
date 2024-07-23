@@ -11,13 +11,29 @@
         justify-content: space-between;
         align-items: center;
 
+        @media (max-width: 768px) {
+            display: block;
+            justify-content: center;
+            text-align: center;
+        }
+
         &__logo {
             max-height: 72px;
+
+            @media (max-width: 768px) {
+                max-height: 80px;
+                margin-bottom: 8px;
+            }
         }
 
         &__button {
             background-color: black;
             width: 200px;
+
+            @media (max-width: 768px) {
+                width: 100%;
+                margin-bottom: 16px;
+            }
 
             &:hover {
                 border: 2px solid orangered;

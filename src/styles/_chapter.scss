@@ -20,6 +20,10 @@
             background-color: #1b1b1b;
             width: 24%;
 
+            @media (max-width: 768px) {
+                font-size: 12px !important;
+            }
+
             &--is-active {
                 @include activeButton;
             }
@@ -37,10 +41,18 @@
 
             &__img {
                 width: 100%;
+
+                @media (max-width: 768px) {
+                    margin-bottom: 16px;
+                }
             }
 
             &--is-active {
                 display: grid;
+
+                @media (max-width: 768px) {
+                    display: block;
+                }
             }
         }
     }

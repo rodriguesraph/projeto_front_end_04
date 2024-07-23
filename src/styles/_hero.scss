@@ -1,10 +1,14 @@
 .hero {
-    background-image: url(../../dist/images/hero-john-wick.jpg);
+    background-image: url(../../dist/images/hero-john-wick-v2.png);
     text-align: center;
     background-size: contain;
     background-repeat: no-repeat;
     background-color: #1b1b1b;
     padding-bottom: 48px;
+
+    @media (max-width: 1279px) {
+        background-image: url(../../dist/images/hero-john-wick-mobile.png);
+    }
 
     &__container {
         align-items: center;
@@ -12,8 +16,13 @@
 
         &__title {
             max-width: 100%;
-            margin-top: 40vh;
+            margin-top: 45vh;
             margin-bottom: 36px;
+
+            @media (max-width: 1023px) {
+                max-width: 90%;
+                margin-top: 35vh;
+            }
         }
 
         &__end {
